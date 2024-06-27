@@ -55,4 +55,9 @@ Go into the lab folder in this repository and run:
 ### Tools
 All lab tools are located in `/home/kali_username/tools`
 
+----
+##### Credit
+[@dolevf](https://github.com/dolevf/)
+
+[@nicholasaleks](https://github.com/nicholasaleks)
 
