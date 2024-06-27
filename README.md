@@ -29,6 +29,7 @@
 3. Run `sudo ./init.sh`
 
 **Note**: These lab instructions were tested on Kali Linux only.
+
 **Note**: Make sure docker is running after step 3.
 > sudo systemctl status docker
 
