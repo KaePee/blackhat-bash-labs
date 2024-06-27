@@ -17,19 +17,23 @@
 | c-backup-01 | | 10.1.0.13 | c-backup-01.acme-infinity-servers.com |
 | c-redis-01 | | 10.1.0.14 | c-redis-01.acme-infinity-servers.com |
 | c-db-01 | | 10.1.0.15 | c-db-01.acme-infinity-servers.com |
-| c-db-02 | | 10.1.0.16 | c-db-02.acme-infinity-servers.com |
+| c-db-02 | | 10.1.0.16 | c-db-02.acme-infinity-servers.com |	
 
 
 # Lab Installation
-Clone the lab from the repo below:
-[]()
+1. In your Kali Vm terminal, clone the lab from the repo below:
+> git clone [https://github.com/KaePee/blackhat-bash-labs.git](https://github.com/KaePee/blackhat-bash-labs.git)
+
+2. cd into the `blackhat-bash-labs/lab` directory
+
+3. Run `sudo ./init.sh`
 
 **Note**: These lab instructions were tested on Kali Linux only.
+**Note**: Make sure docker is running after step 3.
+> sudo systemctl status docker
 
-
-**Start the Docker Service** 
-
-`sudo service docker start`
+If docker is not running,
+> sudo systemctl start docker
 
 ## Start the Lab
 Go into the lab folder in this repository and run:
@@ -47,4 +51,8 @@ Go into the lab folder in this repository and run:
 
 ## Destroy the Lab
 `sudo make clean`
+
+### Tools
+All lab tools are located in `/home/kali_username/tools`
+
 
